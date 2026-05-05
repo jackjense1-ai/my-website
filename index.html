@@ -3,66 +3,72 @@
 <head>
   <title>Jack Jense Lawn & Can Cleaning</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PREMIUM FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: white;
       text-align: center;
-      background: linear-gradient(to bottom, #1e3c72, #2a5298);
-      background-size: cover;
-      background-position: center;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a40, #000000);
     }
 
     .container {
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
 
     h1 {
-      font-size: 2.3em;
+      font-size: 2.6em;
       margin-bottom: 10px;
+      letter-spacing: 1px;
     }
 
     p {
       font-size: 1.1em;
-      margin: 8px 0;
+      opacity: 0.9;
     }
 
     .section {
-      margin-top: 30px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      margin: 12px auto;
+      padding: 18px;
+      border-radius: 14px;
+      max-width: 320px;
+      backdrop-filter: blur(8px);
     }
 
     .btn {
       display: inline-block;
-      padding: 14px 26px;
-      margin: 8px;
-      background: #00ff88;
-      color: black;
-      border-radius: 10px;
+      padding: 14px 28px;
+      margin: 10px;
+      background: linear-gradient(90deg, #ff3c3c, #3c6bff);
+      color: white;
+      border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1em;
     }
 
-    .card {
-      background: rgba(255,255,255,0.1);
-      margin: 10px auto;
-      padding: 15px;
-      border-radius: 12px;
-      max-width: 300px;
+    .btn-secondary {
+      background: white;
+      color: black;
     }
 
-    input, textarea {
-      width: 90%;
-      padding: 10px;
-      margin: 8px 0;
-      border-radius: 8px;
-      border: none;
+    h2 {
+      margin-top: 30px;
     }
 
     footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 0.9em;
-      opacity: 0.7;
+      opacity: 0.6;
     }
   </style>
 </head>
@@ -75,38 +81,35 @@
   <p>Serving Pleasant Grove, Utah</p>
   <p>Professional lawn mowing & trash can cleaning</p>
 
+  <!-- SERVICES -->
   <div class="section">
-    <div class="card">🌿 Lawn mowing: $25+</div>
-    <div class="card">🧼 Trash can cleaning: $20 per can</div>
+    <div class="card">🌿 Lawn Mowing: Call for a quote</div>
+    <div class="card">🧼 Trash Can Cleaning: $20 per can</div>
   </div>
 
+  <!-- BOOKING -->
   <div class="section">
-    <a class="btn" href="tel:3853126739">Call Now</a>
-    <a class="btn" href="sms:3853126739">Text Me</a>
+    <a class="btn" href="sms:3853126739?body=Hi%20I%20want%20a%20quote%20for%20lawn%20mowing">🌿 Get Lawn Quote</a>
+    <a class="btn" href="sms:3853126739?body=Hi%20I%20want%20trash%20can%20cleaning">🧼 Book Can Cleaning</a>
   </div>
 
+  <!-- CONTACT -->
   <div class="section">
-    <p>✔ Reliable</p>
-    <p>✔ Affordable</p>
-    <p>✔ Fast service</p>
-  </div>
-
-  <!-- BOOKING FORM -->
-  <div class="section">
-    <h2>Book a Service</h2>
-
-    <form action="https://formspree.io/f/YOURCODE" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required><br>
-      <input type="tel" name="phone" placeholder="Your Phone" required><br>
-      <textarea name="details" placeholder="What do you need done?" required></textarea><br>
-      <button class="btn" type="submit">Submit Request</button>
-    </form>
+    <a class="btn btn-secondary" href="tel:3853126739">Call Now</a>
+    <a class="btn btn-secondary" href="sms:3853126739">Text Me</a>
   </div>
 
   <!-- VENMO -->
   <div class="section">
     <h2>Pay with Venmo</h2>
-   <a class="btn" href="https://venmo.com/Jack-Jense-1">Pay Here</a>
+    <a class="btn" href="https://venmo.com/Jack-Jense-1">💸 Pay Here</a>
+  </div>
+
+  <!-- TRUST -->
+  <div class="section">
+    <p>✔ Reliable</p>
+    <p>✔ Affordable</p>
+    <p>✔ Fast service</p>
   </div>
 
   <footer>
