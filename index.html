@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jack Jense Lawn & Can Cleaning</title>
+  <title>Jack Jense Can Cleaning</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Anton&display=swap" rel="stylesheet">
@@ -12,63 +12,49 @@
       font-family: 'Montserrat', sans-serif;
       color: white;
       text-align: center;
-      background: linear-gradient(135deg, #5a0000, #b30000, #ff1a1a);
+      background: radial-gradient(circle at top, #0f3d1f, #021a0d);
     }
 
     .container {
-      padding: 60px 20px;
+      padding: 50px 20px;
+      max-width: 400px;
+      margin: auto;
     }
 
     h1 {
       font-family: 'Anton', sans-serif;
-      font-size: 3em;
+      font-size: 2.8em;
       letter-spacing: 2px;
-      text-transform: uppercase;
-      transform: skew(-6deg);
-      margin-bottom: 10px;
-
-      background: black;
-      display: inline-block;
-      padding: 12px 20px;
-      border: 3px solid white;
-
-      text-shadow:
-        3px 3px 0 black,
-        6px 6px 12px rgba(0,0,0,0.7);
+      margin: 10px 0;
     }
 
-    h1 span {
-      color: #ff1a1a;
+    .highlight {
+      color: #00ff99;
     }
 
     p {
-      font-size: 1.1em;
       opacity: 0.9;
     }
 
-    .section {
-      margin-top: 35px;
-    }
-
     .card {
-      background: rgba(255,255,255,0.10);
-      margin: 12px auto;
-      padding: 18px;
-      border-radius: 14px;
-      max-width: 320px;
-      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 16px;
+      margin: 12px 0;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 15px rgba(0,255,120,0.2);
     }
 
     .btn {
-      display: inline-block;
-      padding: 14px 28px;
-      margin: 10px;
-      background: linear-gradient(90deg, #000, #ff3c3c);
-      color: white;
-      border-radius: 12px;
+      display: block;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 14px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1em;
+      background: linear-gradient(90deg, #00cc66, #00ff99);
+      color: black;
+      box-shadow: 0 0 15px rgba(0,255,120,0.5);
     }
 
     .btn-secondary {
@@ -78,20 +64,17 @@
 
     h2 {
       margin-top: 30px;
-      font-weight: 700;
     }
 
     .stars {
-      font-size: 2rem;
-      margin-top: 10px;
       color: gold;
-      letter-spacing: 3px;
+      font-size: 1.8rem;
     }
 
     footer {
-      margin-top: 50px;
-      font-size: 0.9em;
+      margin-top: 40px;
       opacity: 0.6;
+      font-size: 0.9em;
     }
   </style>
 </head>
@@ -100,60 +83,40 @@
 
 <div class="container">
 
-  <h1>JACK <span>JENSE</span></h1>
+  <h1>JACK <span class="highlight">JENSE</span></h1>
 
   <p>Serving Lindon & Pleasant Grove, Utah</p>
-  <p>Professional lawn mowing & trash can cleaning</p>
-
-  <!-- 🔥 NEW SERVICE DETAILS -->
-  <div class="section">
-    <div class="card">
-      🌿 Lawn Care includes full yard mowing
-    </div>
-    <div class="card">
-      🧼 Trash Can Cleaning includes foam cannon + pressure washing
-    </div>
-  </div>
+  <p>Professional trash can cleaning</p>
 
   <!-- SERVICES -->
-  <div class="section">
-    <div class="card">🌿 Lawn Mowing: Call for a quote</div>
-    <div class="card">🧼 Trash Can Cleaning: $20 per can</div>
-  </div>
+  <div class="card">🧼 Foam Cannon Cleaning</div>
+  <div class="card">💦 Pressure Washed & Sanitized</div>
+  <div class="card">🗑️ $20 per can</div>
 
-  <!-- BOOKING -->
-  <div class="section">
-    <a class="btn" href="sms:3853126739?body=Hi%20I%20want%20a%20quote%20for%20lawn%20mowing">🌿 Get Lawn Quote</a>
-    <a class="btn" href="sms:3853126739?body=Hi%20I%20want%20trash%20can%20cleaning">🧼 Book Can Cleaning</a>
-  </div>
+  <!-- BOOK -->
+  <a class="btn" href="sms:3853126739?body=Hi%20I%20want%20trash%20can%20cleaning">
+    🧼 Book Can Cleaning
+  </a>
 
   <!-- CONTACT -->
-  <div class="section">
-    <a class="btn btn-secondary" href="tel:3853126739">Call Now</a>
-    <a class="btn btn-secondary" href="sms:3853126739">Text Me</a>
-  </div>
+  <a class="btn btn-secondary" href="tel:3853126739">📞 Call Now</a>
+  <a class="btn btn-secondary" href="sms:3853126739">💬 Text Me</a>
 
   <!-- VENMO -->
-  <div class="section">
-    <h2>Pay with Venmo</h2>
-    <a class="btn" href="https://venmo.com/Jack-Jense-1">💸 Pay Here</a>
-  </div>
+  <h2>Pay with Venmo</h2>
+  <a class="btn" href="https://venmo.com/Jack-Jense-1">💸 Pay Here</a>
 
-  <!-- ⭐ 5 STAR SECTION -->
-  <div class="section">
-    <h2>Rated Service</h2>
-    <div class="stars">★★★★★</div>
-  </div>
+  <!-- REVIEWS -->
+  <h2>Rated Service</h2>
+  <div class="stars">★★★★★</div>
 
   <!-- TRUST -->
-  <div class="section">
-    <p>✔ Reliable</p>
-    <p>✔ Affordable</p>
-    <p>✔ Fast service</p>
-  </div>
+  <div class="card">✔ Reliable</div>
+  <div class="card">✔ Affordable</div>
+  <div class="card">✔ Fast Service</div>
 
   <footer>
-    <p>Local service in Utah County</p>
+    Local service in Utah County
   </footer>
 
 </div>
